@@ -75,7 +75,7 @@ MyCarousel(
 ```
 
 ![Android Screenshot](https://raw.githubusercontent.com/TouhidApps/KMP-Carousel-Slider/refs/heads/main/screenshots/slider_android.png)
-![iOS Screenshot](https://raw.githubusercontent.com/TouhidApps/KMP-Carousel-Slider/refs/heads/main/screenshots/slider_iod.png)
+![iOS Screenshot](https://raw.githubusercontent.com/TouhidApps/KMP-Carousel-Slider/refs/heads/main/screenshots/slider_ios.png)
 ![Desktop Screenshot](https://raw.githubusercontent.com/TouhidApps/KMP-Carousel-Slider/refs/heads/main/screenshots/slider_desktop.png)
 
 
