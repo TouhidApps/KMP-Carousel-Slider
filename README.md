@@ -10,20 +10,26 @@ KMP Carousel Slider: Kotlin Compose Multiplatform
 ### Add below libraries:
 
 android: 
-
-`implementation("io.ktor:ktor-client-okhttp:3.0.0")`
+```
+implementation("io.ktor:ktor-client-okhttp:3.0.0")
+```
 
 iOS:
-`implementation("io.ktor:ktor-client-darwin:3.0.0")`
+```
+implementation("io.ktor:ktor-client-darwin:3.0.0")
+```
 
 Desktop:
-`implementation("io.ktor:ktor-client-java:3.0.0")`
+```
+implementation("io.ktor:ktor-client-java:3.0.0")
+```
 
 Common:
-    implementation("io.coil-kt.coil3:coil-compose:3.0.0")
-    implementation("io.coil-kt.coil3:coil-network-ktor3:3.0.0")
-    implementation("io.ktor:ktor-client-core:3.0.0")
-
+```
+implementation("io.coil-kt.coil3:coil-compose:3.0.0")
+implementation("io.coil-kt.coil3:coil-network-ktor3:3.0.0")
+implementation("io.ktor:ktor-client-core:3.0.0")
+```
 
 Now find the MyCarousel.kt file in the commonMain package. 
 Just copy and paste this file into your project.
@@ -32,8 +38,8 @@ Customise it if necessary or just use it with defaults.
 ### Use it like below:
 
 Initialise data for slider:
-
-`val sliderItems by remember {
+```
+val sliderItems by remember {
     mutableStateOf(
         listOf(
             CarouselItemModel(
@@ -50,11 +56,12 @@ Initialise data for slider:
             )
         )
     )
-}`
+}
+```
 
 Place the slider in your page:
-
-`MyCarousel(
+```
+MyCarousel(
     banners = sliderItems,
     slidePause = 3000,
     height = 150.dp,
@@ -64,7 +71,8 @@ Place the slider in your page:
     activeIndicatorColor = Color.LightGray,
     inactiveIndicatorColor = Color.DarkGray,
     isCenterCropImage = true
-)`
+)
+```
 
 ![Android Screenshot](http://url/to/img.png)
 ![iOS Screenshot](http://url/to/img.png)
