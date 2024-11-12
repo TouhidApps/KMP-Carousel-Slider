@@ -32,6 +32,8 @@ Now find the MyCarousel.kt file in the commonMain package.
 Just copy and paste this file into your project.
 Customise it if necessary or just use it with defaults.
 
+File Link: [MyCarousel.kt](https://github.com/TouhidApps/KMP-Carousel-Slider/blob/main/composeApp/src/commonMain/kotlin/com/touhidapps/carousel/MyCarousel.kt)
+
 ### Use it like below:
 
 Initialise data for slider:
