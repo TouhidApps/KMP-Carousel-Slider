@@ -6,26 +6,40 @@
 
 ### Add below libraries:
 
+Common:
+```
+commonMain.dependencies {
+    ...
+    implementation("io.coil-kt.coil3:coil-compose:3.0.0")
+    implementation("io.coil-kt.coil3:coil-network-ktor3:3.0.0")
+    implementation("io.ktor:ktor-client-core:3.0.0")
+}
+```
+
 android: 
 ```
-implementation("io.ktor:ktor-client-okhttp:3.0.0")
+androidMain.dependencies {
+    ...
+    implementation("io.ktor:ktor-client-okhttp:3.0.0")
+}
 ```
 
 iOS:
 ```
-implementation("io.ktor:ktor-client-darwin:3.0.0")
+iosMain.dependencies {
+    implementation("io.ktor:ktor-client-darwin:3.0.0")
+}
+appleMain.dependencies {
+    implementation("io.ktor:ktor-client-darwin:3.0.0")
+}
 ```
 
 Desktop:
 ```
-implementation("io.ktor:ktor-client-java:3.0.0")
-```
-
-Common:
-```
-implementation("io.coil-kt.coil3:coil-compose:3.0.0")
-implementation("io.coil-kt.coil3:coil-network-ktor3:3.0.0")
-implementation("io.ktor:ktor-client-core:3.0.0")
+desktopMain.dependencies {
+    ...
+    implementation("io.ktor:ktor-client-java:3.0.0")
+}
 ```
 
 Now find the MyCarousel.kt file in the commonMain package. 
