@@ -74,9 +74,9 @@ MyCarousel(
 )
 ```
 
-![Android Screenshot](http://url/to/img.png)
-![iOS Screenshot](http://url/to/img.png)
-![Desktop Screenshot](http://url/to/img.png)
+![Android Screenshot](https://raw.githubusercontent.com/TouhidApps/KMP-Carousel-Slider/refs/heads/main/screenshots/slider_android.png)
+![iOS Screenshot](https://raw.githubusercontent.com/TouhidApps/KMP-Carousel-Slider/refs/heads/main/screenshots/slider_iod.png)
+![Desktop Screenshot](https://raw.githubusercontent.com/TouhidApps/KMP-Carousel-Slider/refs/heads/main/screenshots/slider_desktop.png)
 
 
 
