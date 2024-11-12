@@ -1,7 +1,4 @@
-# KMP-Carousel-Slider
-KMP Carousel Slider: Kotlin Compose Multiplatform
-
-# KMP Carousel Slider with image and text - Compose Multiplatform
+# KMP Carousel Slider with image and text - Kotlin Compose Multiplatform
 
 ## [ANDROID, iOS, Desktop]
 
